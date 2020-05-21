@@ -1,0 +1,110 @@
+html{
+   height : 100%;
+  background:radial-gradient(circle,#fff,#ccc);   
+    
+}
+
+#container{ 
+    height: 550px ;
+    width: 850px;
+    background-color: skyblue;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px 0px darkturquoise;
+    margin: 50px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#trails{
+    height: 30px;
+    width: 80px;
+    float:left;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    box-shadow:0px 2px sandybrown;
+    background-color:lemonchiffon;
+    padding: 1px;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 30px;
+    
+}
+
+
+#score{
+    height: 30px;
+    width: 80px;
+    float: right;
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    box-shadow:0px 2px sandybrown;
+    background-color:lemonchiffon;
+    padding: 1px;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 30px;
+    
+}
+#white-box{
+    position:relative;
+    top: 60px;
+    left: 125px;
+    height: 400px;
+    width :600px;
+    box-shadow: 2px darkblue;
+    background-color: antiquewhite
+}
+
+
+
+
+#game-over{
+
+    position: absolute;
+    left : 125px;
+    top: 120px;
+    height: 150px;
+    width :380px;
+    background-color:orange;
+    margin: auto;
+    line-height: 150px;
+    font-size: 50px;
+    z-index: 30;
+    text-align: center;  
+    border-radius: 5px;
+  
+}
+#instructions{
+    position: relative;
+    height: 30px;
+    width: 200px;
+    background-color: lightgray;
+    top: 70px;
+    margin: auto;
+    text-align: center;
+    line-height: 30px; 
+    border-radius: 5px;
+    box-shadow:0px 2px purple;
+    
+}
+#start-reset{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    background-color:lightgray;
+    top: 70px;
+    margin:10px auto ;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    box-shadow:0px 2px purple;
+
+}
+
+
+
+
+
+
+
