@@ -1,11 +1,10 @@
 html{
    height : 100%;
-  background:radial-gradient(circle,#fff,#ccc);   
-    
+  background:radial-gradient(circle,#fff,#ccc);    
 }
 
 #container{ 
-    height: 550px ;
+    height: 580px ;
     width: 850px;
     background-color: skyblue;
     border-radius: 10px;
@@ -13,21 +12,43 @@ html{
     margin: 50px auto;
     text-transform: uppercase;
     font-weight: bold;
+    font-family: sans-serif;
+    
+}
+#white-box{
+      
+    position:relative;
+    top: 70px;
+    left: 100px;
+    height: 400px;
+    width :600px;
+    box-shadow: 2px darkblue;
+    background-color: white;
+    overflow: hidden;
+  
+    
+}
+#fruits{
+    display: none;
+    position: absolute;
 }
 #trails{
     height: 30px;
-    width: 100px;
-    float:left;
+    width: auto;
+    float: left;
     margin-top: 12px;
     margin-left: 10px;
     margin-bottom: 5px;
-    box-shadow:0px 2px sandybrown;
+    box-shadow:0px 2px purple;
     background-color:lemonchiffon;
-    padding: 1px;
+    padding: 2px;
     text-align: center;
-    vertical-align: middle; 
-    line-height: 30px;
-    
+    visibility:hidden;
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+      
 }
 
 
@@ -38,7 +59,7 @@ html{
     margin-top: 12px;
     margin-right: 10px;
     margin-bottom: 5px;
-    box-shadow:0px 2px sandybrown;
+    box-shadow:0px 2px purple;
     background-color:lemonchiffon;
     padding: 1px;
     text-align: center;
@@ -46,23 +67,12 @@ html{
     line-height: 30px;
     
 }
-#white-box{
-    position:relative;
-    top: 60px;
-    left: 125px;
-    height: 400px;
-    width :600px;
-    box-shadow: 2px darkblue;
-    background-color: antiquewhite
-}
-
-
 
 
 #game-over{
-
-    position: absolute;
-    left : 125px;
+           
+    position: relative;
+    left : 110x;
     top: 120px;
     height: 150px;
     width :380px;
@@ -73,37 +83,41 @@ html{
     z-index: 30;
     text-align: center;  
     border-radius: 5px;
+ 
   
 }
+
 #instructions{
     position: relative;
     height: 30px;
     width: 200px;
     background-color: lightgray;
-    top: 70px;
+    top: 80px;
     margin: auto;
     text-align: center;
     line-height: 30px; 
     border-radius: 5px;
     box-shadow:0px 2px purple;
-    
 }
+
 #start-reset{
     position: relative;
     height: 30px;
     width: 100px;
     background-color:lightgray;
-    top: 70px;
+    top: 80px;
     margin:10px auto ;
     text-align: center;
     line-height: 30px;
     border-radius: 5px;
     box-shadow:0px 2px purple;
-
 }
 
-
-
+.heart{
+    height: 16px;
+    width: 16px;
+    margin: 0px 5px;  
+}
 
 
 
