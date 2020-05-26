@@ -41,6 +41,6 @@ function addHearts(){
 function showFruits(){
     
     $("#fruits").append("<img src='images/"+chooseFruit[Math.round(8*Math.random())]+".png'>");
-    $("#fruits").css({'top' : -50, "left" : 300});
+    $("#fruits").css({'top' : -50 , 'left' : Math.round(500*Math.random())});
     
 }
